@@ -42,7 +42,7 @@ public class AdminFilter implements Filter {
 		
 		String contextPath = request.getContextPath();
 		if (!user.getEstAdmin()) {
-			response.sendRedirect(contextPath+"/accueil");
+			response.sendRedirect(contextPath+"/Accueil");
 			return;
 		}
 		
